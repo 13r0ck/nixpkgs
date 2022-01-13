@@ -28479,6 +28479,8 @@ with pkgs;
 
   styx = callPackage ../applications/misc/styx { };
 
+  system76-keyboard-configurator = callPackage ../applications/misc/system76-keyboard-configurator { };
+
   tecoc = callPackage ../applications/editors/tecoc { };
 
   viber = callPackage ../applications/networking/instant-messengers/viber { };
